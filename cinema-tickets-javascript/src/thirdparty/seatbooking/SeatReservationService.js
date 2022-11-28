@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-export default class SeatReservationService {
+module.exports = class SeatReservationService {
   reserveSeat(accountId, totalSeatsToAllocate) {
     if (!Number.isInteger(accountId)) {
       throw new TypeError('accountId must be an integer');

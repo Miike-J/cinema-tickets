@@ -2,7 +2,7 @@
  * Immutable Object.
  */
 
-export default class TicketTypeRequest {
+module.exports = class TicketTypeRequest {
   #type;
 
   #noOfTickets;

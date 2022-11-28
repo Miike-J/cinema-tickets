@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-export default class TicketPaymentService {
+module.exports = class TicketPaymentService {
   makePayment(accountId, totalAmountToPay) {
     if (!Number.isInteger(accountId)) {
       throw new TypeError('accountId must be an integer');
